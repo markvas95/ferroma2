@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Миссия</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <div class="header-inner">
+               <a class="header-logo" href="index.html" >
+                  <img src="images/logo-small.svg" alt="" />
+               </a>
+               <nav class="header-menu">
+                  <ul class="header-list">
+                     <div class="header-adapt">
+                        <a class="header-logo-adaptive" href="index.html">
+                           <img src="images/logo-small.svg" alt="" />
+                        </a>
+                        <button class="header-menu__btn header-menu__btn--close">
+                           <span class="header-menu__line"></span>
+                        </button>
+                     </div>
+                     <li><a class="header-link" href="index.html#factory">Завод</a></li>
+                     <li><a class="header-link" href="transformators.html">Трансформаторы</a></li>
+                     <li><a class="header-link" href="gear.html">Оборудование для элегаза</a></li>
+                     <li><a class="header-link" href="projects.html">Проекты</a></li>
+                     <li><a class="header-link" href="technology.html">Технология</a></li>
+                     <li><a class="header-link" href="team.html">Работа в компании</a></li>
+                     <li><a class="header-link" href="mission.html">Миссия</a></li>
+                     <li><a class="header-link" href="partners.html">Партнеры</a></li>
+                     <li><a class="header-link" href="index.html#crew">Команда</a></li>
+                  </ul>
+               </nav>
+               <div class="header-menu__overlay"></div>
+               <button class="header-menu__btn">
+                  <span class="header-menu__line"></span>
+               </button>
+            </div>
+         </div>
+      </header>
+      <main class="mission">
+         <div class="main-img mission-img">
+            <style mission-img>
+               .mission-img {
+                  background-image: url(images/main-1.jpg); 
+               }
+               @media (max-width: 600px) {
+                  .mission-img {
+                     background-image: url(images/main-1-landscape.jpg); 
+                  }
+               }
+            </style>
+            <div class="container">
+            <div class="main-inner">
+               <h1 class="main-img__text">
+                  производитель №1
+                  <span>Северо-Западном регионе</span>
+               </h1>
+            </div>
+            </div>
+         </div>
+         <div class="mission-text text">
+            <div class="container">
+            <div class="text-item">
+               <div class="text-title">Персональная ответственность</div>
+               <div class="text-main">
+                  <p>
+                     У Вас есть персональный менеджер, который использует все ресурсы компании «Феррома» и хорошо знаком с Вашими требованиями и спецификой.
+                  </p>
+               </div>
+            </div>
+            <div class="text-item">
+               <div class="text-title">Оптимальное решение</div>
+               <div class="text-main">
+                  <p>
+                     Благодаря глубокой проработке каждого запроса мы экономим Ваше время и деньги. Мы найдем оптимальный вариант, который позволит решить поставленную задачу в срок без потери качества
+                  </p>
+               </div>
+            </div>
+            <div class="text-item">
+               <div class="text-title">Командная работа</div>
+               <div class="text-main">
+                  <p>
+                     Наш рецепт успеха – каждый сотрудник знает порядок бизнес-процессов и умеет планировать свое время. Благодаря четкому разграничению обязанностей мы сможем реализовать проект в кратчайшие сроки.
+                  </p>
+               </div>
+            </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-inner">
+               <div class="footer-wrapper">
+                  <a class="footer-logo" href="index.html">
+                     <picture>
+                        <source srcset="images/footer-small.svg" media="(max-width: 600px)">                       
+                        <img src="images/logo-big.svg" alt="" />
+                     </picture>
+                  </a>
+                  <div class="footer-info">
+                     <div class="footer-address">
+                        Ленинградская обл., р-н Кировский, 
+                        г. Отрадное, ш. Ленинградское, 122
+                     </div>
+                     тел.:
+                     <a class="footer-phone" href="tel:+78123249973">+7(812)324-99-73</a><br>
+                     mail:
+                     <a class="footer-mail-first" href="mailto:info@ferroma.ru">info@ferroma.ru</a>
+                     ,
+                     <a class="footer-mail-second" href="mailto:info@ntt-trafo.ru">info@ntt-trafo.ru</a>
+                  </div>
+               </div>
+               <a class="footer-btn btn btn-white" href="#">Смотреть на карте</a>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
